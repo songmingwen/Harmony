@@ -1,0 +1,50 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\KLYG\\.ohos\\config\\auto_debug_SongFirst_com.example.songfirst_900086000149648996.cer",
+          "storePassword": "0000001B1ED092CF6206A5AF11F2B55847B231B381E2F511A02076C3957FEE7C104279BFF49BD079810064",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BF326EA76CCE493E3D620294FA7C46072FF89E1D1A87EC0BD3DDD0DB3393B7B6DF2863BE31D7ECB",
+          "profile": "C:\\Users\\KLYG\\.ohos\\config\\auto_debug_SongFirst_com.example.songfirst_900086000149648996.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\KLYG\\.ohos\\config\\auto_debug_SongFirst_com.example.songfirst_900086000149648996.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compileSdkVersion": "4.0.0(10)",
+        "compatibleSdkVersion": "4.0.0(10)",
+        "runtimeOS": "HarmonyOS",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

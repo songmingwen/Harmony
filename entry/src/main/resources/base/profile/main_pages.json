@@ -1,0 +1,12 @@
+{
+  "src": [
+    "pages/CategoryListPage",
+    "pages/SwiperPage",
+    "pages/DialogPage",
+    "pages/AnimPage",
+    "pages/NewsPage",
+    "pages/NotificationPage",
+    "pages/LottiePage",
+    "pages/DetailPage"
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "该模板实现了类别列表的功能"
+    },
+    {
+      "name": "ability_desc",
+      "value": "该Ability加载显示主Page的内容"
+    },
+    {
+      "name": "ability_label",
+      "value": "Category List Ability"
+    },
+    {
+      "name": "list_item_title",
+      "value": "Single list"
+    },
+    {
+      "name": "list_item_summary",
+      "value": "右侧文本"
+    },
+    {
+      "name": "page_title",
+      "value": "标题"
+    },
+    {
+      "name": "sub_title",
+      "value": "子标题"
+    },
+    {
+      "name": "detail_default_title",
+      "value": "默认标题"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "自定义下拉刷新动画"
+    },
+    {
+      "name": "refresh_default_header_hint",
+      "value": "下拉刷新"
+    },
+    {
+      "name": "refresh_default_header_load",
+      "value": "松开刷新"
+    },
+    {
+      "name": "refresh_default_header_loading",
+      "value": "正在刷新..."
+    },
+    {
+      "name": "file_index_title",
+      "value": "云空间"
+    },
+    {
+      "name": "pull_up_load_text",
+      "value": "加载中..."
+    },
+    {
+      "name": "pull_down_refresh_text",
+      "value": "下拉刷新"
+    },
+    {
+      "name": "release_refresh_text",
+      "value": "松开刷新"
+    },
+    {
+      "name": "refreshing_text",
+      "value": "正在刷新"
+    },
+    {
+      "name": "refresh_success_text",
+      "value": "刷新成功"
+    },
+    {
+      "name": "refresh_fail_text",
+      "value": "刷新失败"
+    },
+    {
+      "name": "http_error_message",
+      "value": "网络请求失败，请稍后尝试！"
+    },
+    {
+      "name": "page_none_msg",
+      "value": "网络加载失败"
+    },
+    {
+      "name": "prompt_message",
+      "value": "没有更多数据了"
+    },
+    {
+      "name": "dependency_reason",
+      "value": "用于发起网络数据请求"
+    },
+    {
+      "name": "title",
+      "value": "文件下载"
+    },
+    {
+      "name": "button_download",
+      "value": "下载"
+    },
+    {
+      "name": "button_pause",
+      "value": "暂停"
+    },
+    {
+      "name": "button_resume",
+      "value": "继续"
+    },
+    {
+      "name": "button_cancel",
+      "value": "取消"
+    },
+    {
+      "name": "button_finish",
+      "value": "打开"
+    },
+    {
+      "name": "notification_title_download",
+      "value": "下载中"
+    },
+    {
+      "name": "notification_title_pause",
+      "value": "已暂停下载"
+    },
+    {
+      "name": "notification_title_finish",
+      "value": "下载完成"
+    },
+    {
+      "name": "invalid_button_toast",
+      "value": "功能暂未实现"
+    },
+    {
+      "name": "invalid_progress_toast",
+      "value": "不支持进度条模板"
+    }
+  ]
+}

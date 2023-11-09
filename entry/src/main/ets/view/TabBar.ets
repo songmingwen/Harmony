@@ -35,10 +35,10 @@ export default struct TabBar {
 
   build() {
     Tabs() {
-      ForEach(this.tabBarArray, (tabsItem: NewsTypeBean) => {
+      ForEach(this.tabBarArray, (tabsItem: NewsTypeBean,index:number) => {
         TabContent() {
           Column() {
-            NewsList({ currentIndex: $currentIndex })
+            NewsList({tabType:index})
           }
         }
         .tabBar(this.TabBuilder(tabsItem.id))

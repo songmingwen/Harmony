@@ -2,10 +2,11 @@
 
 export class SwiperDataSource implements IDataSource{
 
-  private list: number[] = []
-  private listener: DataChangeListener
+  private list: string[] = []
 
-  constructor(list: number[]) {
+  private listener: DataChangeListener|null=null
+
+  constructor(list: string[]) {
     this.list = list
   }
   

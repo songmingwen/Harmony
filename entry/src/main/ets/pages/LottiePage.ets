@@ -1,4 +1,4 @@
-import lottie from '@ohos/lottie'
+import lottie, { AnimationItem } from '@ohos/lottie'
 import promptAction from '@ohos.promptAction';
 import { CommonConstants } from '../common/constants/CommonConstants';
 
@@ -10,7 +10,7 @@ export struct LottiePage {
   private renderingContext: CanvasRenderingContext2D = new CanvasRenderingContext2D(this.renderingSettings)
   private path: string = "common/lottie/json_kanshan.json";
   private animateName: string = this.path;
-  private animateItem = null
+  private animateItem:AnimationItem | null = null
 
   build() {
     Stack() {

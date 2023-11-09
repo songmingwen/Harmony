@@ -36,7 +36,7 @@ export struct CategoryComponent {
               router.pushUrl({
                 url: CommonConstants.DETAIL_PAGE,
                 params: {
-                  [CommonConstants.KEY_PARAM_DATA]: listItemData.title
+                  'data': listItemData.title
                 }
               });
             })

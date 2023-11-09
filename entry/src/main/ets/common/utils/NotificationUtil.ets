@@ -66,7 +66,7 @@ export function publishNotification(progress: number, title: string, wantAgentOb
 export function openNotificationPermission() {
   notification.requestEnableNotification().then(() => {
     Logger.info('Enable notification success');
-  }).catch((err) => {
+  }).catch((err: Error) => {
     Logger.error('Enable notification failed because ' + JSON.stringify(err));
   });
 }

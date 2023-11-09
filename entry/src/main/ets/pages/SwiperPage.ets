@@ -11,8 +11,8 @@ export struct SwiperPage {
   private data: SwiperDataSource = new SwiperDataSource([])
 
   aboutToAppear() {
-    let list = []
-    for (var i = 1; i <= 10; i++) {
+    let list: Array<string> = []
+    for (let i = 1; i <= 10; i++) {
       list.push("https://img.zcool.cn/community/01ed2c5e8ecbb7a801216518ae4706.png@1280w_1l_2o_100sh.png");
     }
     this.data = new SwiperDataSource(list)
@@ -36,7 +36,7 @@ export struct SwiperPage {
               .textAlign(TextAlign.Center)
               .fontSize(30)
           }.height("200vp")
-        }, item => item)
+        }, (item: string) => item)
       }
       .cachedCount(2)
       .index(0)

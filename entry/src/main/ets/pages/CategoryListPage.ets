@@ -7,7 +7,6 @@ import router from '@ohos.router';
 @Entry
 @Component
 export struct CategoryListPage {
-
   @Builder
   ButtonList() {
     //普通设置样式
@@ -17,24 +16,24 @@ export struct CategoryListPage {
       router.pushUrl({ url: CommonConstants.SWIPER_PAGE });
     })
     //弹窗
-    this.newButton("Dialog",()=>{
-      router.pushUrl({url: CommonConstants.DIALOG_PAGE})
+    this.newButton("Dialog", () => {
+      router.pushUrl({ url: CommonConstants.DIALOG_PAGE })
     })
     //属性动画
-    this.newButton("Anim",()=>{
-      router.pushUrl({url: CommonConstants.ANIM_PAGE})
+    this.newButton("Anim", () => {
+      router.pushUrl({ url: CommonConstants.ANIM_PAGE })
     })
     //网络请求
-    this.newButton("HTTP",()=>{
-      router.pushUrl({url: CommonConstants.NEWS_PAGE})
+    this.newButton("HTTP", () => {
+      router.pushUrl({ url: CommonConstants.NEWS_PAGE })
     })
     //通知
-    this.newButton("Notification",()=>{
-      router.pushUrl({url: CommonConstants.NOTIFICATION_PAGE})
+    this.newButton("Notification", () => {
+      router.pushUrl({ url: CommonConstants.NOTIFICATION_PAGE })
     })
     //lottie 动画
-    this.newButton("Lottie",()=>{
-      router.pushUrl({url: CommonConstants.LOTTIE_PAGE})
+    this.newButton("Lottie", () => {
+      router.pushUrl({ url: CommonConstants.LOTTIE_PAGE })
     })
   }
 
@@ -120,7 +119,7 @@ export struct CategoryListPage {
   @Builder
   public newButton(title: string, onClick: () => void) {
     Button(title).onClick(() => {
-      onClick.call(this)
+      onClick()
     })
       .margin({ top: "10vp", left: "10vp", right: "10vp" })
       .width(CommonConstants.FULL_WIDTH_PERCENT)

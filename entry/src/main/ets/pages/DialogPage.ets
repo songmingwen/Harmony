@@ -89,7 +89,7 @@ export struct DialogPage {
   @Builder
   public newButton(title: string, onClick: () => void) {
     Button(title).onClick(() => {
-      onClick.call(this)
+      onClick
     })
       .margin({ top: "10vp", left: "10vp", right: "10vp" })
       .width('100%')
